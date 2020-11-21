@@ -1,7 +1,7 @@
 # APIKeyAuthentication
 It is a simple API Key authentication implementation using spring security.
 There are two apis
-  1. /api/isAlive - unsecured - doest require api key
+  1. /api/isAlive - unsecured - doesn't require api key
   2. /api/hello - secured - requires api key
 
 # How to run this
@@ -11,7 +11,7 @@ There are two apis
 4. It will start running in port 8080
 
 # How to hit the API
-## Unsecured api - It deosnt require api key
+## Unsecured api - It deosn't require api key
   ``` 
   curl localhost:8080/api/isAlive 
   I am alive, you dont need authentication to check whether I am alive
