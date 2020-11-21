@@ -22,7 +22,7 @@ It is a simple API Key authentication implementation using spring security.
   ```
 ## Secured api without api key
   ``` 
-  curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello 
+  curl -X GET -H localhost:8080/api/hello 
   {"timestamp":1605932182632,"status":403,"error":"Forbidden","message":"","path":"/api/hello"}
   ```
  ## Secured api with wrong api key
