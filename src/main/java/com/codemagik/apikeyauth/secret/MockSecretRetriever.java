@@ -3,7 +3,7 @@ package com.codemagik.apikeyauth.secret;
 import java.util.Arrays;
 import java.util.List;
 
-public class MockSecretRetriver implements SecretRetriever {
+public class MockSecretRetriever implements SecretRetriever {
     @Override
     public List<ClientKey> getClientKeys() {
         ClientKey clientKey = new ClientKey();
