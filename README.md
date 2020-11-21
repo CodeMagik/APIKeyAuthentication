@@ -1,8 +1,8 @@
 # APIKeyAuthentication
 It is a simple API Key authentication implementation using spring security.
 There are two apis
-### 1. /api/isAlive - unsecured - doest require api key
-### 2. /api/hello - secured - requires api key
+  1. /api/isAlive - unsecured - doest require api key
+  2. /api/hello - secured - requires api key
 
 # How to run this
 1. git clone git@github.com:CodeMagik/APIKeyAuthentication.git
