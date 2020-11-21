@@ -11,12 +11,12 @@ It is a simple API Key authentication implementation.
 ## Unsecured api - It deosnt require api key
   ``` 
   curl localhost:8080/api/isAlive 
-  Response: I am alive, you dont need authentication to check whether I am alive
+  I am alive, you dont need authentication to check whether I am alive
   
   ```
 
 ## Secured api - It requires api key
   ``` 
   curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello 
-  Response: hello
+  hello
   ```
