@@ -8,8 +8,8 @@ It is a simple API Key authentication implementation.
 4. It will start running in port 8080
 
 # How to hit the API
-Unsecured api - It deosnt require api key
-curl localhost:8080/api/hello
+## Unsecured api - It deosnt require api key
+  curl localhost:8080/api/hello
 
-Secured api - It requires api key
-curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello
+## Secured api - It requires api key
+  curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello
