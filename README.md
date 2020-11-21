@@ -9,7 +9,14 @@ It is a simple API Key authentication implementation.
 
 # How to hit the API
 ## Unsecured api - It deosnt require api key
-  ``` curl localhost:8080/api/isAlive ```
+  ``` 
+  curl localhost:8080/api/isAlive 
+  Response: I am alive, you dont need authentication to check whether I am alive
+  
+  ```
 
 ## Secured api - It requires api key
-  ``` curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello ```
+  ``` 
+  curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello 
+  Response: hello
+  ```
