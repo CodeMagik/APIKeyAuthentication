@@ -15,7 +15,7 @@ It is a simple API Key authentication implementation using spring security.
   
   ```
 
-## Secured api - It requires api key - demoApiKey is a hard coded value in MockSecretRetriver.java
+## Secured api - It requires api key - demoApiKey is a hard coded value in MockSecretRetriever.java
   ``` 
   curl -X GET -H "Authorization: ApiKey demoApiKey" localhost:8080/api/hello 
   hello
