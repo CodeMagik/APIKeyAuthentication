@@ -1,6 +1,6 @@
 package com.codemagik.apikeyauth;
 
-import com.codemagik.apikeyauth.secret.MockSecretRetriver;
+import com.codemagik.apikeyauth.secret.MockSecretRetriever;
 import com.codemagik.apikeyauth.secret.SecretRetriever;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -18,7 +18,7 @@ public class AppBeansConfiguration {
 
     @Bean
     @Qualifier("mockSecretRetriever")
-    public SecretRetriever getMockSecretRetriever() throws Throwable {
-        return new MockSecretRetriver();
+    public SecretRetriever getMockSecretRetriever() {
+        return new MockSecretRetriever();
     }
 }
