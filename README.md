@@ -1,5 +1,5 @@
 # APIKeyAuthentication
-It is a simple API Key authentication implementation.
+It is a simple API Key authentication implementation using spring security.
 
 # How to run this
 1. git clone git@github.com:CodeMagik/APIKeyAuthentication.git
